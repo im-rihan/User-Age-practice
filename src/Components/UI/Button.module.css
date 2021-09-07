@@ -5,6 +5,7 @@
   padding: 0.25rem 1rem;
   cursor: pointer;
   border: 1px solid #4f005f;
+  border-radius: 6px;
 }
 .button:hover,
 .button:active {
