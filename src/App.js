@@ -13,10 +13,10 @@ const App = () => {
     });
   };
   return (
-    <div>
+    <React.Fragment>
       <AddUser onAddUser={addUserhandler} />
       <UserList users={userList} />
-    </div>
+    </React.Fragment>
   );
 };
 export default App;
